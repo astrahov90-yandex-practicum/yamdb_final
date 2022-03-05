@@ -8,6 +8,16 @@ Python 3.7
 Django 2.2.19
 Postgres
 Nginx
+### Подготовка данных
+Необходимо заполнить .env файл со следующими переменными:
+DB_ENGINE=django.db.backends.postgresql
+DB_NAME=postgres
+POSTGRES_USER=Имя пользователя БД
+POSTGRES_PASSWORD=Пароль пользователя БД
+DB_HOST=db
+DB_PORT=5432
+### Старт контейнера
+docker run --name <имя контейнера> -it -p 8000:8000 api_yamdb
 ### Адрес проекта
 Готовый проект можно посмотреть по <a href='sai-testlab.ddns.net'>адресу</a>:
 ### Автор
