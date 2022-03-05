@@ -19,7 +19,7 @@ DB_PORT=5432
 ### Старт контейнера
 docker run --name <имя контейнера> -it -p 8000:8000 api_yamdb
 ### Адрес проекта
-Готовый проект можно посмотреть по <a href='sai-testlab.ddns.net'>адресу</a>:
+Готовый проект можно посмотреть по <a href='sai-testlab.ddns.net'>ссылке</a>:
 ### Автор
 astrahov90
 
